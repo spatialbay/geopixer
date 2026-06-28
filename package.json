@@ -1,0 +1,41 @@
+{
+  "name": "geopixer",
+  "version": "0.1.0",
+  "description": "GeoPixer — mapping SDK: GIS layers, GEE data export, and automated QGIS-to-Blender style 3D terrain rendering.",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "map",
+    "gis",
+    "blender",
+    "terrain",
+    "remote-sensing",
+    "earth-engine",
+    "geoserver",
+    "cartography"
+  ],
+  "homepage": "https://github.com/spatialbay/geopixer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spatialbay/geopixer.git"
+  },
+  "license": "MIT",
+  "author": "Lawrence Kimutai",
+  "publishConfig": {
+    "access": "public"
+  }
+}
