@@ -1,7 +1,7 @@
 {
-  "name": "geopixer",
+  "name": "@geomotion/geopixer",
   "version": "0.1.0",
-  "description": "GeoPixer — mapping SDK: GIS layers, GEE data export, and automated QGIS-to-Blender style 3D terrain rendering.",
+  "description": "GeoPixer \u2014 mapping SDK: GIS layers, GEE data export, and automated QGIS-to-Blender style 3D terrain rendering.",
   "type": "module",
   "main": "index.js",
   "module": "index.js",
@@ -36,6 +36,6 @@
   "license": "MIT",
   "author": "Lawrence Kimutai",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }
